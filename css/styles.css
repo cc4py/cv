@@ -3,7 +3,16 @@ body {
 }
 
 table {
-  font-size: 100%;
+  width: 100%;
+}
+
+tr {
+  display: block;
+}
+
+td {
+  float: left;
+  width: 24%;
 }
 
 hr {
