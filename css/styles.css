@@ -2,6 +2,10 @@ body {
   background-color: #FCFFE7;
 }
 
+table {
+  font-size: 100%;
+}
+
 hr {
   border-style: dotted none none;
   border-width: 5px;
