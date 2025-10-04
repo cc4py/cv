@@ -2,10 +2,6 @@ body {
   background-color: #FCFFE7;
 }
 
-table {
-  width: 75%;
-}
-
 hr {
   border-style: dotted none none;
   border-width: 5px;
@@ -34,4 +30,5 @@ img{
   width: 100%;
   height: auto;
 }
+
 
