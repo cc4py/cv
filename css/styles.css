@@ -31,4 +31,23 @@ img{
   height: auto;
 }
 
+* {
+  box-sizing: border-box;
+}
 
+.left {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  float: left;
+  width: 80%; /* The width is 60%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 600px) {
+  .left, .main {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
