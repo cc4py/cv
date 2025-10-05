@@ -43,13 +43,13 @@ img{
 }
 
 .left {
-  padding: 20px;
+  padding: 10px;
   float: left;
   width: 20%; /* The width is 20%, by default */
 }
 
 .main {
-  padding: 20px;
+  padding: 10px;
   float: left;
   width: 80%; /* The width is 60%, by default */
 }
@@ -60,5 +60,6 @@ img{
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
+
 
 
